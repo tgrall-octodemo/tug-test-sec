@@ -23,7 +23,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           argvs: '--disable-dependabot --disable-secret-scanning --disable-code-scanning'
-          policy-path: policies/definition.yml
+          policy-path: .github/policies/definition.yml
 
 
 
