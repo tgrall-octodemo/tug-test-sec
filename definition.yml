@@ -11,8 +11,8 @@ dependabot:
 licensing:
   conditions:
     ids:
-      - GPL-*
-      - LGPL-*
+      # - GPL-*
+      # - LGPL-*
       - AGPL-*
 
   warnings:
