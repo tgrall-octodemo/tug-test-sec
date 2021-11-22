@@ -19,7 +19,7 @@ jobs:
 
 
       - name: Advance Security Compliance Action
-        uses: GeekMasher/advanced-security-compliance@policy
+        uses: GeekMasher/advanced-security-compliance@1.5
         with:
           # We'll need an access token that can call the GraphQL GitHub API to get
           #  all the of the licensing data.
