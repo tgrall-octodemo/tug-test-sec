@@ -1,9 +1,14 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: License Scanning
 
 on:
   workflow_dispatch:
+
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 permissions: write-all
 
