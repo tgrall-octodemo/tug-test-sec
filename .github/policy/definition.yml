@@ -14,7 +14,7 @@ licensing:
       - GPL-*
       - LGPL-*
       - AGPL-*
-      # - MIT License
+      - MIT License
       - ISC
 
   warnings:
